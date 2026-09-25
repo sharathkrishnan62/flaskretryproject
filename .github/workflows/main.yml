@@ -46,11 +46,11 @@ jobs:
 
       - name: Run tests
         run: flutter test
-   analyze:
+  analyze:
         name: Analyze & Format
-    runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
 
-    steps:
+  steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
